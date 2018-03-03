@@ -1,0 +1,878 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.0.0-Girona" projectname="">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" name="routes" checked="Qt::Checked" providerKey="ogr" id="tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce" source="./tdf-2017_routes.geojson">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="transitions" checked="Qt::Checked" providerKey="ogr" id="tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8" source="./tdf-2017_transition.geojson">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce</item>
+      <item>tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" enabled="0" tolerance="12" unit="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting type="1" units="1" enabled="0" tolerance="12" id="tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce"/>
+      <layer-setting type="1" units="1" enabled="0" tolerance="12" id="tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-0.56196967174746426</xmin>
+      <ymin>42.56118000000000023</ymin>
+      <xmax>7.15887974809146321</xmax>
+      <ymax>51.50718000000009766</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="routes" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" drawingOrder="-1" showFeatureCount="0" name="transitions" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" readOnly="0" geometry="Line" autoRefreshTime="0" type="vector" labelsEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" minScale="1e+8" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" maxScale="0" simplifyDrawingTol="1">
+      <extent>
+        <xmin>-0.37813992365606103</xmin>
+        <ymin>42.7741800000000012</ymin>
+        <xmax>6.97505000000005992</xmax>
+        <ymax>51.2941800000000967</ymax>
+      </extent>
+      <id>tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce</id>
+      <datasource>./tdf-2017_routes.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>routes</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" maxz="0" minx="0" crs="" maxy="0" dimensions="2" minz="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="0.77" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="72,123,182,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="2" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>OBJECTID</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory opacity="1" maxScaleDenominator="1e+8" barWidth="5" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" width="15" backgroundAlpha="255" minScaleDenominator="0" penWidth="0" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" penColor="#000000" diagramOrientation="Up" enabled="0" scaleBasedVisibility="0" rotationOffset="270" sizeType="MM" backgroundColor="#ffffff" height="15" scaleDependency="Area" penAlpha="255" minimumSize="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" dist="0" priority="0" zIndex="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Date">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Stage">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="START_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="START_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="START_Z">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MID_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MID_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MID_Z">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="END_Z">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape__Length">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Distance">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="StartFinish">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Overview">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="OBJECTID" name=""/>
+        <alias index="1" field="Name" name=""/>
+        <alias index="2" field="Date" name=""/>
+        <alias index="3" field="Stage" name=""/>
+        <alias index="4" field="START_X" name=""/>
+        <alias index="5" field="START_Y" name=""/>
+        <alias index="6" field="START_Z" name=""/>
+        <alias index="7" field="MID_X" name=""/>
+        <alias index="8" field="MID_Y" name=""/>
+        <alias index="9" field="MID_Z" name=""/>
+        <alias index="10" field="END_X" name=""/>
+        <alias index="11" field="END_Y" name=""/>
+        <alias index="12" field="END_Z" name=""/>
+        <alias index="13" field="Shape__Length" name=""/>
+        <alias index="14" field="Distance" name=""/>
+        <alias index="15" field="StartFinish" name=""/>
+        <alias index="16" field="Overview" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="OBJECTID" expression=""/>
+        <default applyOnUpdate="0" field="Name" expression=""/>
+        <default applyOnUpdate="0" field="Date" expression=""/>
+        <default applyOnUpdate="0" field="Stage" expression=""/>
+        <default applyOnUpdate="0" field="START_X" expression=""/>
+        <default applyOnUpdate="0" field="START_Y" expression=""/>
+        <default applyOnUpdate="0" field="START_Z" expression=""/>
+        <default applyOnUpdate="0" field="MID_X" expression=""/>
+        <default applyOnUpdate="0" field="MID_Y" expression=""/>
+        <default applyOnUpdate="0" field="MID_Z" expression=""/>
+        <default applyOnUpdate="0" field="END_X" expression=""/>
+        <default applyOnUpdate="0" field="END_Y" expression=""/>
+        <default applyOnUpdate="0" field="END_Z" expression=""/>
+        <default applyOnUpdate="0" field="Shape__Length" expression=""/>
+        <default applyOnUpdate="0" field="Distance" expression=""/>
+        <default applyOnUpdate="0" field="StartFinish" expression=""/>
+        <default applyOnUpdate="0" field="Overview" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="OBJECTID" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Name" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Date" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Stage" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="START_X" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="START_Y" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="START_Z" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="MID_X" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="MID_Y" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="MID_Z" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="END_X" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="END_Y" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="END_Z" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Shape__Length" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Distance" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="StartFinish" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Overview" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" exp="" desc=""/>
+        <constraint field="Name" exp="" desc=""/>
+        <constraint field="Date" exp="" desc=""/>
+        <constraint field="Stage" exp="" desc=""/>
+        <constraint field="START_X" exp="" desc=""/>
+        <constraint field="START_Y" exp="" desc=""/>
+        <constraint field="START_Z" exp="" desc=""/>
+        <constraint field="MID_X" exp="" desc=""/>
+        <constraint field="MID_Y" exp="" desc=""/>
+        <constraint field="MID_Z" exp="" desc=""/>
+        <constraint field="END_X" exp="" desc=""/>
+        <constraint field="END_Y" exp="" desc=""/>
+        <constraint field="END_Z" exp="" desc=""/>
+        <constraint field="Shape__Length" exp="" desc=""/>
+        <constraint field="Distance" exp="" desc=""/>
+        <constraint field="StartFinish" exp="" desc=""/>
+        <constraint field="Overview" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" name="OBJECTID" hidden="0"/>
+          <column width="-1" type="field" name="Name" hidden="0"/>
+          <column width="-1" type="field" name="Date" hidden="0"/>
+          <column width="-1" type="field" name="Stage" hidden="0"/>
+          <column width="-1" type="field" name="START_X" hidden="0"/>
+          <column width="-1" type="field" name="START_Y" hidden="0"/>
+          <column width="-1" type="field" name="START_Z" hidden="0"/>
+          <column width="-1" type="field" name="MID_X" hidden="0"/>
+          <column width="-1" type="field" name="MID_Y" hidden="0"/>
+          <column width="-1" type="field" name="MID_Z" hidden="0"/>
+          <column width="-1" type="field" name="END_X" hidden="0"/>
+          <column width="-1" type="field" name="END_Y" hidden="0"/>
+          <column width="-1" type="field" name="END_Z" hidden="0"/>
+          <column width="-1" type="field" name="Shape__Length" hidden="0"/>
+          <column width="-1" type="field" name="Distance" hidden="0"/>
+          <column width="-1" type="field" name="StartFinish" hidden="0"/>
+          <column width="-1" type="field" name="Overview" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Date" editable="1"/>
+        <field name="Distance" editable="1"/>
+        <field name="END_X" editable="1"/>
+        <field name="END_Y" editable="1"/>
+        <field name="END_Z" editable="1"/>
+        <field name="MID_X" editable="1"/>
+        <field name="MID_Y" editable="1"/>
+        <field name="MID_Z" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="Overview" editable="1"/>
+        <field name="START_X" editable="1"/>
+        <field name="START_Y" editable="1"/>
+        <field name="START_Z" editable="1"/>
+        <field name="Shape__Length" editable="1"/>
+        <field name="Stage" editable="1"/>
+        <field name="StartFinish" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Date" labelOnTop="0"/>
+        <field name="Distance" labelOnTop="0"/>
+        <field name="END_X" labelOnTop="0"/>
+        <field name="END_Y" labelOnTop="0"/>
+        <field name="END_Z" labelOnTop="0"/>
+        <field name="MID_X" labelOnTop="0"/>
+        <field name="MID_Y" labelOnTop="0"/>
+        <field name="MID_Z" labelOnTop="0"/>
+        <field name="Name" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="Overview" labelOnTop="0"/>
+        <field name="START_X" labelOnTop="0"/>
+        <field name="START_Y" labelOnTop="0"/>
+        <field name="START_Z" labelOnTop="0"/>
+        <field name="Shape__Length" labelOnTop="0"/>
+        <field name="Stage" labelOnTop="0"/>
+        <field name="StartFinish" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>OBJECTID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" readOnly="0" geometry="Line" autoRefreshTime="0" type="vector" labelsEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" minScale="1e+8" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" maxScale="0" simplifyDrawingTol="1">
+      <extent>
+        <xmin>0.38990431800004899</xmin>
+        <ymin>42.79701068100010275</ymin>
+        <xmax>6.7772129260000602</xmax>
+        <ymax>50.6407799429999983</ymax>
+      </extent>
+      <id>tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8</id>
+      <datasource>./tdf-2017_transition.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>transitions</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial miny="0" maxz="0" minx="0" crs="" maxy="0" dimensions="2" minz="0" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+              <prop v="round" k="capstyle"/>
+              <prop v="0.66;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="round" k="joinstyle"/>
+              <prop v="72,123,182,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.66" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="1" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory opacity="1" maxScaleDenominator="1e+8" barWidth="5" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" width="15" backgroundAlpha="255" minScaleDenominator="0" penWidth="0" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" penColor="#000000" diagramOrientation="Up" enabled="0" scaleBasedVisibility="0" rotationOffset="270" sizeType="MM" backgroundColor="#ffffff" height="15" scaleDependency="Area" penAlpha="255" minimumSize="0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="2" dist="0" priority="0" zIndex="0" obstacle="0" showAll="1" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Date">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Stage">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape__Length">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="OBJECTID" name=""/>
+        <alias index="1" field="Name" name=""/>
+        <alias index="2" field="Date" name=""/>
+        <alias index="3" field="Stage" name=""/>
+        <alias index="4" field="Shape__Length" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="OBJECTID" expression=""/>
+        <default applyOnUpdate="0" field="Name" expression=""/>
+        <default applyOnUpdate="0" field="Date" expression=""/>
+        <default applyOnUpdate="0" field="Stage" expression=""/>
+        <default applyOnUpdate="0" field="Shape__Length" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="OBJECTID" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Name" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Date" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Stage" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" unique_strength="0" field="Shape__Length" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" exp="" desc=""/>
+        <constraint field="Name" exp="" desc=""/>
+        <constraint field="Date" exp="" desc=""/>
+        <constraint field="Stage" exp="" desc=""/>
+        <constraint field="Shape__Length" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column width="-1" type="field" name="OBJECTID" hidden="0"/>
+          <column width="-1" type="field" name="Name" hidden="0"/>
+          <column width="-1" type="field" name="Date" hidden="0"/>
+          <column width="-1" type="field" name="Stage" hidden="0"/>
+          <column width="-1" type="field" name="Shape__Length" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Date" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="Shape__Length" editable="1"/>
+        <field name="Stage" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Date" labelOnTop="0"/>
+        <field name="Name" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="Shape__Length" labelOnTop="0"/>
+        <field name="Stage" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>OBJECTID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="tdf_2017_routes_9444fd6b_3dcb_40cf_a410_59221c7488ce"/>
+    <layer id="tdf_2017_transition_faaf43ac_b3c1_4fc7_80fe_5d0a7e8663e8"/>
+  </layerorder>
+  <properties>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <PAL>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+    </Gui>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <Annotations/>
+  <Layouts/>
+</qgis>
